@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Currículum - Cristian Verdugo</title>
+    
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="assets/css/cv.css">
+</head>
+<body>
+    <header class="text-center text-white bg-dark py-4">
+        <h1 class="fw-bold">Cristian Verdugo</h1>
+        <p class="lead">Administrador de Sistemas y Redes | Aspirante a Desarrollador Fullstack</p>
+        <img src="assets/img/cristian-verdugo.jpg" alt="Foto de Cristian Verdugo" class="perfil-img rounded-circle">
+    </header>
+
+    <!-- Menú de navegación -->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-primary">
+        <div class="container">
+            <a class="navbar-brand" href="#">Mi CV</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item"><a class="nav-link" href="index.html">Inicio</a></li>
+                    <li class="nav-item"><a class="nav-link" href="portafolio.html">Portafolio</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <div class="container my-4">
+        <div class="row">
+            <div class="col-md-6">
+                <h2>Información Personal</h2>
+                <ul class="list-group">
+                    <li class="list-group-item"><strong>Teléfono:</strong> +56 9 42122253</li>
+                    <li class="list-group-item"><strong>Email:</strong> verdugo.cristian@gmail.com</li>
+                    <li class="list-group-item"><strong>Dirección:</strong> Santiago, Chile</li>
+                </ul>
+            </div>
+
+            <div class="col-md-6">
+                <h2>Perfil Profesional</h2>
+                <p class="text-muted">Administrador de sistemas y redes con experiencia en VoIP, virtualización y redes Cisco...</p>
+            </div>
+        </div>
+
+        <h2 class="mt-4">Educación</h2>
+        <ul class="list-group">
+            <li class="list-group-item">Certificación de Ingenieros para Canales Denwa (2016)</li>
+            <li class="list-group-item">Uso y Aplicaciones de Telefonía IP con Asterisk (2014) - Nota: 6.7</li>
+            <li class="list-group-item">Administración de Redes Cisco CCNA (2012) - 100 hrs</li>
+        </ul>
+
+        <h2 class="mt-4">Experiencia Profesional</h2>
+        <div class="accordion" id="experiencia">
+            <div class="accordion-item">
+                <h2 class="accordion-header">
+                    <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#cibeles">
+                        Cibeles Telecom (2015 - Presente)
+                    </button>
+                </h2>
+                <div id="cibeles" class="accordion-collapse collapse show">
+                    <div class="accordion-body">
+                        <ul>
+                            <li>Gestión y mantenimiento de servidores Linux y Windows.</li>
+                            <li>Implementación de sistemas VoIP con Asterisk.</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <div class="accordion-item">
+                <h2 class="accordion-header">
+                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#siptel">
+                        Siptel (2012 - 2015)
+                    </button>
+                </h2>
+                <div id="siptel" class="accordion-collapse collapse">
+                    <div class="accordion-body">
+                        <ul>
+                            <li>Resolución de problemas de red y sistemas.</li>
+                            <li>Instalación y configuración de equipos de telecomunicaciones.</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Footer -->
+    <footer class="text-center text-white bg-dark py-3">
+        <p>&copy; 2025 Cristian Verdugo</p>
+    </footer>
+
+    <!-- Bootstrap JS -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
