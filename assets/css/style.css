@@ -1,3 +1,8 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
 /* Estilos generales */
 body {
     background-color: #f4f4f4;
@@ -33,6 +38,7 @@ footer {
 .card {
     border-radius: 10px;
     transition: transform 0.3s ease-in-out;
+    margin: 10px; /* Ajusta según necesidad */
 }
 
 .card:hover {
@@ -44,4 +50,5 @@ footer {
     height: 200px; /* Ajusta la altura según lo que necesites */
     object-fit: contain; /* Esto ajusta la imagen para que no se recorte, manteniendo su proporción */
     object-position: center; /* Asegura que la imagen esté centrada dentro del contenedor */
+    margin: 10px; /* Ajusta según necesidad */
 }
